@@ -1,0 +1,17 @@
+{
+    "name": "osc2nuke/oscom",
+    "description": "Laravel shop system based on oscommerce",
+    "authors": [
+        {
+            "name": "Henry Withoot",
+            "email": "osc2nuke@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Osc2nuke\\OSCOM\\": "packages/osc2nuke/oscom/src/"
+        }
+    }
+}
